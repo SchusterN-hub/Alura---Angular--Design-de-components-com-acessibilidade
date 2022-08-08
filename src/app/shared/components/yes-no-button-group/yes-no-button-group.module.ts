@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { YesNoButtonGroupComponent } from './yes-no-button-group.component';
 
 
@@ -9,8 +10,6 @@ import { YesNoButtonGroupComponent } from './yes-no-button-group.component';
   imports: [
     CommonModule
   ],
-  exports:[
-    YesNoButtonGroupComponent
-  ]
+  exports: [YesNoButtonGroupComponent]
 })
 export class YesNoButtonGroupModule { }
